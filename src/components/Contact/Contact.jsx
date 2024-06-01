@@ -1,10 +1,10 @@
+/* eslint-disable no-unused-vars */
 import React, { useRef } from 'react';
 import emailjs from 'emailjs-com';
 
 import './contact.css'
 import {MdOutlineEmail} from 'react-icons/md'
-import {BsInstagram, BsLinkedin} from 'react-icons/bs'
-import { FaTelegramPlane } from 'react-icons/fa';
+import {BsLinkedin} from 'react-icons/bs'
 
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';

@@ -1,10 +1,9 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import './nav.css'
 import { AiOutlineHome, AiOutlineUser} from 'react-icons/ai'
 import { BiBook, BiMessageDetail} from 'react-icons/bi'
-import { RiServiceLine } from 'react-icons/ri'
 import {FaLaptopCode} from 'react-icons/fa';
-import {TbStars} from 'react-icons/tb'
 
 
 const Nav = ({activeNav, setActiveNav}) => {

@@ -1,9 +1,6 @@
 import React from 'react'
 import './about.scss'
-import { FaAward, FaTelegramPlane } from 'react-icons/fa';
-import { FiUsers } from 'react-icons/fi';
-import { BsClipboardCheck } from 'react-icons/bs';
-
+import { FaTelegramPlane } from 'react-icons/fa';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 // Brand Svg icons
