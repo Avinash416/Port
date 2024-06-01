@@ -13,7 +13,7 @@ const Header = () => {
        <article className="container header__container">
          <h5 data-aos="fade-up" data-aos-anchor=".header__container" data-aos-duration="1200" >Hello I'm</h5>
          <h1 data-aos="fade-up" data-aos-anchor=".header__container" data-aos-duration="1000" >Avinash Jadhav</h1>
-         <h5 data-aos="fade-up" data-aos-anchor=".header__container" data-aos-duration="900" className="text-light">Full-stack Software Developer</h5>
+         <h5 data-aos="fade-up" data-aos-anchor=".header__container" data-aos-duration="900" className="text-light">Full-stack Software Developer(MERN)</h5>
          <CTA/>
 
          <HeaderSocial />

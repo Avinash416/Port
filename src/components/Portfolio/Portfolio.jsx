@@ -8,18 +8,18 @@ const Portfolio = () => {
   const [selectedProject, setSelectedProject] = useState(null);
 
   const projects = [ 
-    { 
-      name : "blog-web",
-      deployedLink: "https://dancing-kheer-5c0ce5.netlify.app",
-      image: require('../../assets/Blog.png'),
-      fadeDuration:'1000',
-      description: 'StarShip provides users the platform to track stock market data. Users are able to track the market in general or they can search up a specific stock.',
-      toolsUsed: ['React','MongoDb','NodeJs','Express','MUI', 'JWT']
-    
+    {
+      name:"Online Shoe Store",
+      deployedLink: "https://online-shoe-store-xi.vercel.app/",
+      image: require('../../assets/shoe-store.png'),
+      fadeDuration:'1300',
+      description:"An online shoe shopping site with emoorce functions and a payment gateway with stripe",
+      toolsUsed: ['Next JS','Tailwind CSS','Postgres', 'Strapi Headless CMS','Cloudinary']
     },
+   
     {
       name: "Whatsapp_Clone",
-      deployedLink: "https://verdant-croissant-c7605f.netlify.app/",
+      deployedLink: "https://whats-chat-webapp.netlify.app",
       image: require('../../assets/chat.png'),
       description: "Whats-chat a social media application that allows users to connect and interact with each other in real-time.",
       fadeDuration: "1100",
@@ -33,14 +33,16 @@ const Portfolio = () => {
       description:"Ecommerce site that lets you browse the products,with add to cart functionality and a payment gateway",
       toolsUsed: ['React','MongoDb','NodeJs','Express','MUI', 'JWT','Redux']
     },
-    // {
-    //   name:"BERG-Maps",
-    //   deployedLink: "https://for-timi.github.io/BERG-Maps/",
-    //   image: require('../../assets/berg.png'),
-    //   fadeDuration:'1300',
-    //   description:"A web application designed to allow users to get directions and uses real-time traffic information to find the best route to your destination.",
-    //   toolsUsed: ['Mapbox API','tailwind','HTML/CSS','localStorage']
-    // },
+    { 
+      name : "blog-web",
+      deployedLink: "https://blog-webapp24.netlify.app",
+      image: require('../../assets/Blog.png'),
+      fadeDuration:'1000',
+      description: 'A blog application that lets user read and upload their own blogs and intercat with the blogs like commenting etc',
+      toolsUsed: ['React','MongoDb','NodeJs','Express','MUI', 'JWT']
+    
+    },
+   
     // {
     //   name: "AutoAuto",
     //   deployedLink: "https://stormy-wildwood-35895.herokuapp.com/",
